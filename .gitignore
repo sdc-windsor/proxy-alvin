@@ -3,3 +3,7 @@ node_modules
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+
+video-recommendations/
+video-descriptions-jason/
