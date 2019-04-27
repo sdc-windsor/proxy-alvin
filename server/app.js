@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.use(express.static('public'));
-app.use('/:id', express.static('public'));
+app.use(/^\/[0-9]+/, express.static('public'));
 
 
 //endpoint for loader.io validation
